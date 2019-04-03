@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+
+
+# local env files
+.env.local
+.env.*.local
+
+copytranslator-db.json
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.spec
+
+#Electron-builder output
+dist_electron
+build
+
+# tsc build output, because I'm using ts, so js is the build result
+src/*/*.js
+src/*.js
+dist
+/package-lock.json
+/yarn.lock
